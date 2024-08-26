@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "chainId": 12345,
+  "networkId": "omnichain-1",
+  "blockNumber": 0,
+  "timestamp": 1643723900,
+  "gasLimit": 10000000,
+  "gasUsed": 0,
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "transactions": [
+    {
+      "from": "0x1234567890abcdef",
+      "to": "0x9876543210fedcba",
+      "value": 1000000000000000000,
+      "gas": 20000,
+      "gasPrice": 1000000000,
+      "nonce": 0,
+      "data": "0x"
+    }
+  ],
+  "accounts": [
+    {
+      "address": "0x1234567890abcdef",
+      "balance": 1000000000000000000,
+      "nonce": 0
+    },
+    {
+      "address": "0x9876543210fedcba",
+      "balance": 0,
+      "nonce": 0
+    }
+  ]
+}
