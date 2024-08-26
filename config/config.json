@@ -1,0 +1,45 @@
+{
+  "version": "1.0.0",
+  "network": {
+    "name": "Omnichain Network",
+    "id": "omnichain-1",
+    "chainId": 12345,
+    "nodeUrl": "https://node.omnichain.network",
+    "rpcUrl": "https://rpc.omnichain.network",
+    "wsUrl": "wss://ws.omnichain.network"
+  },
+  "protocol": {
+    "name": "Omnichain Protocol",
+    "version": "1.0.0",
+    "consensus": "PoS",
+    "blockTime": 10,
+    "blockSize": 1000000,
+    "gasLimit": 10000000,
+    "gasPrice": 1000000000
+  },
+  "security": {
+    "privateKey": "0x1234567890abcdef",
+    "publicKey": "0x9876543210fedcba",
+    "signatureScheme": "ECDSA",
+    "hashFunction": "SHA-256"
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "json",
+    "output": "stdout"
+  },
+  "api": {
+    "enabled": true,
+    "port": 8080,
+    "cors": {
+      "allowedOrigins": ["*"],
+      "allowedMethods": ["GET", "POST", "PUT", "DELETE"],
+      "allowedHeaders": ["Content-Type", "Authorization"]
+    }
+  },
+  "wallet": {
+    "type": "HDWallet",
+    "mnemonic": "my secret mnemonic",
+    "passphrase": "my secret passphrase"
+  }
+}
