@@ -28,4 +28,4 @@ Contributions to Omnichain are welcome! Please see the [contributing guide](CONT
 
 ## License
 
-Omnichain is licensed under the MIT License.
+Omnichain is licensed under the Apache 2.0 License.
